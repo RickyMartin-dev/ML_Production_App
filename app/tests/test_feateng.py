@@ -11,7 +11,7 @@ from ml_app.dataprep.prep_filter import prep_filter
 from ml_app.dataprep.prep_load import prep_load
 from ml_app.feateng.feat_bin import feat_bin
 
-TRAIN_DATA_FILE = "../data/train.Video_Games_Sales_as_at_22_Dec_2016.csv"
+TRAIN_DATA_FILE = "data/train.Video_Games_Sales_as_at_22_Dec_2016.csv"
 
 
 def test_feat_bin():

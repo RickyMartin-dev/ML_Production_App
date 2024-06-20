@@ -15,8 +15,8 @@ from ml_app.dataprep.prep_filter import prep_filter
 from ml_app.dataprep.prep_load import prep_load
 from ml_app.feateng.feat_bin import feat_bin
 
-TRAIN_DATA_FILE = "../data/train.Video_Games_Sales_as_at_22_Dec_2016.csv"
-PRED_DATA_FILE = "../data/pred.Video_Games_Sales_as_at_22_Dec_2016.csv"
+TRAIN_DATA_FILE = "data/train.Video_Games_Sales_as_at_22_Dec_2016.csv"
+PRED_DATA_FILE = "data/pred.Video_Games_Sales_as_at_22_Dec_2016.csv"
 
 MODEL_ID = "test1"
 MODEL_OUTPUT_FILE = "models/gbr_{model_id}.pkl"
@@ -24,7 +24,7 @@ PREDICTION_OUTPUT_FILE = "predictions/gbr_{model_id}.csv"
 
 PRED_DATA_LENGTH = 7
 
-SEED = 18
+SEED = 42
 
 
 def test_train():

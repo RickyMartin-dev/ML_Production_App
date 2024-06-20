@@ -10,7 +10,7 @@ from ml_app.config import FEATURE_COLUMNS, ID_COLUMNS, TARGET_COLUMN
 from ml_app.dataprep.prep_filter import prep_filter
 from ml_app.dataprep.prep_load import prep_load
 
-TRAIN_DATA_FILE = "../data/train.Video_Games_Sales_as_at_22_Dec_2016.csv"
+TRAIN_DATA_FILE = "data/train.Video_Games_Sales_as_at_22_Dec_2016.csv"
 TRAIN_DATA_LENGTH = 16709
 
 
