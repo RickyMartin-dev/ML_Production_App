@@ -15,8 +15,8 @@ venv/bin/pip install -r requirements.txt
 
 ```bash
 MODEL_ID=i8du28
-python train_model.py -f ../../data/train.Video_Games_Sales_as_at_22_Dec_2016.csv -i $MODEL_ID
-python predict.py -f ../../data/pred.Video_Games_Sales_as_at_22_Dec_2016.csv -i $MODEL_ID
+python train_model.py -f data/train.Video_Games_Sales_as_at_22_Dec_2016.csv -i $MODEL_ID
+python predict.py -f data/pred.Video_Games_Sales_as_at_22_Dec_2016.csv -i $MODEL_ID
 ```
 
 ## Run unit tests with pytest
